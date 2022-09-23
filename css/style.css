@@ -1,0 +1,79 @@
+/*login*/
+.card{
+    background-color: white;
+    margin-top: 200px;
+}
+
+form{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.btn-1{
+
+    width: 200px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 red;
+    transition: ease-in-out 0.3s;
+    font-size: 1.5rem;
+    outline: none;
+    display: inline-block;
+}
+
+.btn-1:hover{
+    box-shadow: inset 200px 0 0 0 green;
+    cursor: pointer;
+    color: black;
+}
+
+#divtavela{
+
+
+    margin:8px 12px 0px 8px; 
+
+}
+
+#marginlogo{
+    margin-top: 80px;   
+}
+
+#margincard{
+ margin-top: 80px;
+}
+
+#imglogo{
+    margin-right: 2px;
+}
+
+/*cadastro*/
+
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+  bottom: .5em;
+}
+
+.container{
+    margin-top: 100px;
+}
+
+.dataTables_filter{
+  float: right;
+}
+.pagination{
+  float: right;
+}
